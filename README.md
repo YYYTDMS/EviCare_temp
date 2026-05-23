@@ -52,7 +52,7 @@ Run `corpus/m3_dp_construction.ipynb` to build the corpus. The following files a
 
 | File | Description |
 |---|---|
-| `mimic3_dataset_0.05.pkl` / `testset.pt` | Dataset files; refer to [BoxLM](https://github.com/Melinda315/BoxLM) for construction |
+| `mimic3_dataset_0.05.pkl` | Dataset files; refer to [BoxLM](https://github.com/Melinda315/BoxLM) for construction |
 | `ccs_ccs.pkl` | CCS–CCS co-occurrence graph built from pairwise statistics over the training set |
 | `visit_ccs.pkl` | Priority-ranked historical CCS codes produced by the deep model |
 | `patient_time_m3_0.05_y_results.pkl` | Deep model prediction results; refer to `deep/main_test.py` |
