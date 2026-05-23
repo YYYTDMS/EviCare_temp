@@ -10,6 +10,7 @@ This repository contains the implementation of our paper **"EviCare: Enhancing D
 
 In accordance with the requirements of the **PhysioNet Clinical Databases**, we are unable to openly share the raw data without prior permission. Researchers interested in accessing the data can apply through the following links:
 
+
 - [MIMIC-III](https://physionet.org/content/mimiciii/1.4/)
 - [MIMIC-IV](https://physionet.org/content/mimiciv/2.2/)
 
@@ -17,7 +18,9 @@ CCS-related data is sourced from the [Clinical Classifications Software Refined 
 
 ### Data Preprocessing
 
-Initial data processing follows the pipeline from [TRANS](https://github.com/The-Real-JerryChen/TRANS). The data files required by our model must then be preprocessed using the scripts in the `preprocess/` folder.
+Initial data processing follows the pipeline from [TRANS](https://github.com/The-Real-JerryChen/TRANS). 
+
+The data files required by our model must then be preprocessed using the scripts in the `preprocess/` folder.
 
 We thank the [TRANS](https://github.com/The-Real-JerryChen/TRANS) repository for sharing their data processing code.
 
