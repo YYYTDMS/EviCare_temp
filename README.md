@@ -85,8 +85,8 @@ Match the `pred` field in the output sequentially against `CCS9.csv` to obtain E
 
 We gratefully acknowledge the following open-source projects:
 
-- [TRANS](https://github.com/The-Real-JerryChen/TRANS) — for training and evaluating RETAIN and related models
-- [BoxLM](https://github.com/Melinda315/BoxLM) — for training and evaluating BoxLM and related models
+- [TRANS](https://github.com/The-Real-JerryChen/TRANS) — for training and evaluating RETAIN
+- [BoxLM](https://github.com/Melinda315/BoxLM) — for training and evaluating BoxLM
 - [LLaMA-Factory](https://github.com/hiyouga/LlamaFactory) — for LLM deployment
 
 Their contributions have been instrumental to this work.
