@@ -1,0 +1,22 @@
+model_name_or_path: /LM/Qwen3-8B
+template: qwen3
+infer_backend: huggingface  # choices: [huggingface, vllm, sglang]
+trust_remote_code: true
+
+
+## think
+#max_new_tokens: 8192
+#temperature: 0.6
+#top_p: 0.95
+#top_k: 20
+
+# no think
+enable_thinking: false
+temperature: 0.7
+top_p: 0.8
+top_k: 20
+
+# reason
+#max_new_tokens: 256
+#max_new_tokens: 2048
+max_new_tokens: 256
